@@ -51,7 +51,7 @@ class BackBone(object):
 
 class Fpn(nn.Module):
     def __init__(self):
-        super(Mdl, self).__init__()
+        super(Fpn, self).__init__()
 
         #self.Upsample = nn.Upsample(size=(), mode='nearest')
         self.Conv_3x3 = nn.Conv2d(256, 256, 3, 1, 1)
